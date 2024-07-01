@@ -33,7 +33,7 @@ class Effarouchement(QWidget):
         self.end_time_label = QLabel('Heure de fin (AAAA-MM-JJ HH:MM:SS.sss) :')
         self.end_time_input = QLineEdit()
         
-        self.parse_button = QPushButton('Analyser les logs')
+        self.parse_button = QPushButton('Analyser Effarouchements')
         self.parse_button.clicked.connect(self.parse_logs)
         
         self.table = QTableWidget()
