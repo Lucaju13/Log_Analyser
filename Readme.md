@@ -1,9 +1,10 @@
 # Log Analyser
 
 ## Construisez l'image Docker
-docker build -t votre_application_pyqt5 .
+docker build -t log_effarouchement .
+docker build -t log_regul .
 
-# Exécutez le conteneur Docker
+## Exécutez le conteneur Docker
 docker run -it --rm --name votre_application_en_cours d'application votre_application_pyqt5
 
 ## Remarque importante
