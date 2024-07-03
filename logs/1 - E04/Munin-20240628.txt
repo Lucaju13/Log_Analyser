@@ -1,0 +1,776 @@
+2024-06-28 05:45:02.265 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 05:45:02.268 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 1
+2024-06-28 05:45:02.269 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 2
+2024-06-28 05:45:02.269 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 3
+2024-06-28 05:45:02.270 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 4
+2024-06-28 05:45:02.270 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 05:45:02.271 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 6.8757 ms
+2024-06-28 05:45:03.501 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 05:45:03.502 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 05:45:03.504 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 05:45:03.504 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 05:45:03.505 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 05:45:03.506 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 05:45:03.513 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 05:45:03.529 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 05:45:03.530 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 05:45:03.531 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 30.1570 ms
+2024-06-28 06:55:37.933 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 06:55:37.934 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 06:55:37.935 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 06:55:37.935 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 06:55:37.936 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 06:55:37.937 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 06:55:37.949 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 06:55:37.963 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 06:55:37.964 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 06:55:37.965 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 31.4477 ms
+2024-06-28 07:05:41.614 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 07:05:41.616 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 07:05:41.631 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 07:05:41.635 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 07:05:41.636 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 07:05:41.637 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 07:05:41.646 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 07:05:41.660 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 07:05:41.661 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 07:05:41.661 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 47.5148 ms
+2024-06-28 08:30:47.489 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 08:30:47.493 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_4 windturbine 1-E4
+2024-06-28 08:30:47.495 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:30:47.496 +02:00 [INF] [ModbusEngine] Startle PLAY_4 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '4'.
+2024-06-28 08:30:47.504 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:30:47.525 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:30:47.548 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 08:30:47.551 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 08:30:47.552 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 63.7867 ms
+2024-06-28 08:30:47.793 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 08:30:47.793 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 08:30:47.794 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 08:30:47.795 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 08:30:47.796 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:30:47.797 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 08:30:47.800 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:30:47.827 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:30:47.829 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 08:30:47.830 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 37.5223 ms
+2024-06-28 08:30:48.940 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 08:30:48.941 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 4 windturbine 1-E4
+2024-06-28 08:30:48.942 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:30:48.945 +02:00 [INF] [ModbusEngine] Startle STOP_4 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '4'.
+2024-06-28 08:30:48.950 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:30:48.963 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:30:48.973 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 08:30:48.974 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 08:30:48.975 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 35.2241 ms
+2024-06-28 08:40:51.623 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 08:40:51.624 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 08:40:51.624 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 08:40:51.625 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 08:40:51.626 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:40:51.627 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 08:40:51.632 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:40:51.660 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:40:51.662 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 08:40:51.663 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 40.0626 ms
+2024-06-28 08:52:28.781 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 08:52:28.782 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 08:52:28.783 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 08:52:28.784 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 08:52:28.785 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:52:28.785 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 08:52:28.790 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:52:28.811 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:52:28.814 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 08:52:28.816 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 34.8135 ms
+2024-06-28 08:52:31.998 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 08:52:32.000 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_4 windturbine 1-E4
+2024-06-28 08:52:32.001 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:52:32.002 +02:00 [INF] [ModbusEngine] Startle PLAY_4 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '4'.
+2024-06-28 08:52:32.004 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:52:32.022 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:52:32.045 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 08:52:32.045 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 08:52:32.046 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 48.6771 ms
+2024-06-28 08:52:33.676 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 08:52:33.677 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 4 windturbine 1-E4
+2024-06-28 08:52:33.678 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 08:52:33.679 +02:00 [INF] [ModbusEngine] Startle STOP_4 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '4'.
+2024-06-28 08:52:33.684 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 08:52:33.702 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 08:52:33.709 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 08:52:33.711 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 08:52:33.712 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 35.4992 ms
+2024-06-28 09:02:34.358 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 09:02:34.359 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 09:02:34.360 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 09:02:34.361 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 09:02:34.362 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:02:34.362 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 09:02:34.365 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:02:34.382 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:02:34.382 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 09:02:34.384 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 26.0940 ms
+2024-06-28 09:07:42.147 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 09:07:42.150 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 09:07:42.151 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 09:07:42.152 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 09:07:42.152 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:07:42.153 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 09:07:42.156 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:07:42.170 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:07:42.171 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 09:07:42.172 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 25.5327 ms
+2024-06-28 09:07:46.370 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 09:07:46.372 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_4 windturbine 1-E4
+2024-06-28 09:07:46.378 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:07:46.378 +02:00 [INF] [ModbusEngine] Startle PLAY_4 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '4'.
+2024-06-28 09:07:46.381 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:07:46.402 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:07:46.428 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 09:07:46.429 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 09:07:46.430 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 60.0270 ms
+2024-06-28 09:07:47.437 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 09:07:47.438 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 4 windturbine 1-E4
+2024-06-28 09:07:47.439 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:07:47.439 +02:00 [INF] [ModbusEngine] Startle STOP_4 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '4'.
+2024-06-28 09:07:47.442 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:07:47.463 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:07:47.470 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 09:07:47.471 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 09:07:47.472 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 35.3189 ms
+2024-06-28 09:17:49.878 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 09:17:49.882 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 09:17:49.882 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 09:17:49.883 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 09:17:49.884 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:17:49.884 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 09:17:49.890 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:17:49.907 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:17:49.908 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 09:17:49.910 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 32.4492 ms
+2024-06-28 09:23:17.608 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 09:23:17.611 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 09:23:17.612 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 09:23:17.613 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 09:23:17.614 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:23:17.614 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 09:23:17.619 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:23:17.637 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:23:17.637 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 09:23:17.638 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 30.9612 ms
+2024-06-28 09:33:17.915 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 09:33:17.916 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 09:33:17.917 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 09:33:17.918 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 09:33:17.919 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:33:17.919 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 09:33:17.923 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:33:17.945 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:33:17.948 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 09:33:17.950 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 34.5110 ms
+2024-06-28 09:46:52.329 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 09:46:52.330 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 09:46:52.331 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 09:46:52.332 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 09:46:52.333 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 09:46:52.333 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 09:46:52.338 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 09:46:52.358 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 09:46:52.359 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 09:46:52.360 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 30.9223 ms
+2024-06-28 10:31:26.693 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 10:31:26.693 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 10:31:26.696 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 10:31:26.697 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 10:31:26.698 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 10:31:26.699 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 10:31:26.707 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 10:31:26.721 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 10:31:26.721 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 10:31:26.725 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 32.6544 ms
+2024-06-28 10:44:25.821 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 10:44:25.822 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 10:44:25.822 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 10:44:25.823 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 10:44:25.823 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 10:44:25.824 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 10:44:25.827 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 10:44:25.843 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 10:44:25.844 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 10:44:25.845 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 24.2550 ms
+2024-06-28 10:59:41.637 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 10:59:41.637 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 10:59:41.638 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 10:59:41.639 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 10:59:41.639 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 10:59:41.640 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 10:59:41.645 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 10:59:41.670 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 10:59:41.670 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 10:59:41.671 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 34.6371 ms
+2024-06-28 11:06:05.699 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 11:06:05.703 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 11:06:05.704 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 11:06:05.704 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 11:06:05.706 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:06:05.706 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 11:06:05.709 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:06:05.731 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:06:05.732 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 11:06:05.733 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 34.0455 ms
+2024-06-28 11:14:03.917 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:14:03.919 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_4 windturbine 1-E4
+2024-06-28 11:14:03.920 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:14:03.921 +02:00 [INF] [ModbusEngine] Startle PLAY_4 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '4'.
+2024-06-28 11:14:03.924 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:14:03.956 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:14:04.003 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 11:14:04.003 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:14:04.006 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 88.6961 ms
+2024-06-28 11:14:05.463 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:14:05.464 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 4 windturbine 1-E4
+2024-06-28 11:14:05.464 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:14:05.465 +02:00 [INF] [ModbusEngine] Startle STOP_4 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '4'.
+2024-06-28 11:14:05.468 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:14:05.485 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:14:05.495 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 11:14:05.495 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:14:05.496 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 33.5054 ms
+2024-06-28 11:14:31.817 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:14:31.818 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_4 windturbine 1-E4
+2024-06-28 11:14:31.819 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:14:31.820 +02:00 [INF] [ModbusEngine] Startle PLAY_4 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '4'.
+2024-06-28 11:14:31.827 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:14:31.849 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:14:31.873 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 11:14:31.874 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:14:31.875 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 58.5284 ms
+2024-06-28 11:14:33.922 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:14:33.925 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_1 windturbine 1-E4
+2024-06-28 11:14:33.925 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:14:33.926 +02:00 [INF] [ModbusEngine] Startle PLAY_1 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '7'.
+2024-06-28 11:14:33.930 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:14:33.944 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:14:33.944 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 11:14:33.945 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:14:33.946 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 23.9349 ms
+2024-06-28 11:14:34.998 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:14:35.000 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 1 windturbine 1-E4
+2024-06-28 11:14:35.001 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:14:35.001 +02:00 [INF] [ModbusEngine] Startle STOP_1 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '7'.
+2024-06-28 11:14:35.005 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:14:35.022 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:14:35.024 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 11:14:35.025 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:14:35.025 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 27.0434 ms
+2024-06-28 11:14:36.825 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:14:36.826 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 4 windturbine 1-E4
+2024-06-28 11:14:36.827 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:14:36.828 +02:00 [INF] [ModbusEngine] Startle STOP_4 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '4'.
+2024-06-28 11:14:36.837 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:14:36.853 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:14:36.865 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 11:14:36.866 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:14:36.867 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 42.8113 ms
+2024-06-28 11:24:39.140 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 11:24:39.142 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 11:24:39.143 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 11:24:39.143 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 11:24:39.144 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:24:39.144 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 11:24:39.149 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:24:39.165 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:24:39.170 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 11:24:39.172 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 32.2670 ms
+2024-06-28 11:52:30.716 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 11:52:30.717 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 11:52:30.717 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 11:52:30.719 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 11:52:30.724 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:52:30.725 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 11:52:30.732 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:52:30.756 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:52:30.757 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 11:52:30.758 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 42.1835 ms
+2024-06-28 11:52:39.761 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:52:39.763 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_4 windturbine 1-E4
+2024-06-28 11:52:39.764 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:52:39.765 +02:00 [INF] [ModbusEngine] Startle PLAY_4 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '4'.
+2024-06-28 11:52:39.769 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:52:39.782 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:52:39.806 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 11:52:39.807 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:52:39.808 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 47.3415 ms
+2024-06-28 11:52:40.868 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 11:52:40.870 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 4 windturbine 1-E4
+2024-06-28 11:52:40.870 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 11:52:40.871 +02:00 [INF] [ModbusEngine] Startle STOP_4 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '4'.
+2024-06-28 11:52:40.875 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 11:52:40.892 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 11:52:40.897 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 11:52:40.898 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 11:52:40.899 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 30.7464 ms
+2024-06-28 12:13:12.246 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 12:13:12.246 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 12:13:12.247 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 12:13:12.248 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 12:13:12.249 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 12:13:12.249 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 12:13:12.255 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 12:13:12.272 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 12:13:12.272 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 12:13:12.273 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 27.5821 ms
+2024-06-28 12:14:07.620 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 12:14:07.621 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 12:14:07.624 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 12:14:07.626 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 12:14:07.628 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 12:14:07.628 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 12:14:07.632 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 12:14:07.645 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 12:14:07.645 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 12:14:07.646 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 26.2582 ms
+2024-06-28 12:40:11.736 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 12:40:11.742 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_3 windturbine 1-E4
+2024-06-28 12:40:11.743 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 12:40:11.750 +02:00 [INF] [ModbusEngine] Startle PLAY_3 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '5'.
+2024-06-28 12:40:11.755 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 12:40:11.772 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 12:40:11.799 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 12:40:11.801 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 12:40:11.802 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 66.6569 ms
+2024-06-28 12:40:12.933 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 12:40:12.936 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 3 windturbine 1-E4
+2024-06-28 12:40:12.937 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 12:40:12.938 +02:00 [INF] [ModbusEngine] Startle STOP_3 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '5'.
+2024-06-28 12:40:12.940 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 12:40:12.966 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 12:40:12.981 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 12:40:12.983 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 12:40:12.985 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 51.5535 ms
+2024-06-28 12:44:36.097 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 12:44:36.101 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_3 windturbine 1-E4
+2024-06-28 12:44:36.102 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 12:44:36.106 +02:00 [INF] [ModbusEngine] Startle PLAY_3 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '5'.
+2024-06-28 12:44:36.110 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 12:44:36.125 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 12:44:36.152 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 12:44:36.153 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 12:44:36.154 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 57.3771 ms
+2024-06-28 12:44:41.038 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 12:44:41.040 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 3 windturbine 1-E4
+2024-06-28 12:44:41.040 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 12:44:41.041 +02:00 [INF] [ModbusEngine] Startle STOP_3 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '5'.
+2024-06-28 12:44:41.044 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 12:44:41.081 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 12:44:41.094 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 12:44:41.095 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 12:44:41.096 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 58.1010 ms
+2024-06-28 13:13:17.215 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 13:13:17.224 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 13:13:17.225 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 13:13:17.225 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 13:13:17.226 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 13:13:17.227 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 13:13:17.233 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : False
+2024-06-28 13:13:17.249 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 13:13:17.250 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 13:13:17.251 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 36.4097 ms
+2024-06-28 13:22:06.671 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 13:22:06.672 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 13:22:06.673 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 13:22:06.674 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 13:22:06.676 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 13:22:06.677 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 13:22:06.686 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 13:22:06.708 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 13:22:06.709 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 13:22:06.710 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 39.0994 ms
+2024-06-28 13:38:04.910 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 13:38:04.913 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_3 windturbine 1-E4
+2024-06-28 13:38:04.914 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 13:38:04.915 +02:00 [INF] [ModbusEngine] Startle PLAY_3 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '5'.
+2024-06-28 13:38:04.923 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 13:38:04.947 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 13:38:04.976 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 13:38:04.977 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 13:38:04.979 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 69.0590 ms
+2024-06-28 13:38:06.656 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 13:38:06.657 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 3 windturbine 1-E4
+2024-06-28 13:38:06.658 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 13:38:06.658 +02:00 [INF] [ModbusEngine] Startle STOP_3 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '5'.
+2024-06-28 13:38:06.661 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 13:38:06.677 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 13:38:06.683 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 13:38:06.683 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 13:38:06.685 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 29.3366 ms
+2024-06-28 13:50:37.005 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 13:50:37.006 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 13:50:37.008 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 13:50:37.009 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 13:50:37.010 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 13:50:37.012 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 13:50:37.019 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 13:50:37.033 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 13:50:37.034 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 13:50:37.035 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.5835 ms
+2024-06-28 13:50:49.785 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 13:50:49.786 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 13:50:49.787 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 13:50:49.787 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 13:50:49.788 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 13:50:49.789 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 13:50:49.795 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 13:50:49.812 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 13:50:49.816 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 13:50:49.818 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 32.3585 ms
+2024-06-28 14:09:06.787 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 14:09:06.788 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 14:09:06.789 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 14:09:06.789 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 14:09:06.790 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 14:09:06.791 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 14:09:06.795 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 14:09:06.809 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 14:09:06.809 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 14:09:06.810 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 23.3468 ms
+2024-06-28 14:38:37.488 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 14:38:37.489 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 14:38:37.490 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 14:38:37.490 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 14:38:37.492 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 14:38:37.493 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 14:38:37.497 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 14:38:37.515 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 14:38:37.516 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 14:38:37.517 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.1296 ms
+2024-06-28 14:49:08.848 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 14:49:08.849 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 14:49:08.850 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 14:49:08.851 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 14:49:08.852 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 14:49:08.853 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 14:49:08.855 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 14:49:08.869 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 14:49:08.870 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 14:49:08.870 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 22.4269 ms
+2024-06-28 15:17:39.896 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 15:17:39.897 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 15:17:39.900 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 15:17:39.901 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 15:17:39.902 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 15:17:39.902 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 15:17:39.908 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 15:17:39.924 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 15:17:39.925 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 15:17:39.926 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.4881 ms
+2024-06-28 15:27:42.201 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 15:27:42.202 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 15:27:42.203 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 15:27:42.203 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 15:27:42.204 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 15:27:42.205 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 15:27:42.209 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 15:27:42.223 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 15:27:42.223 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 15:27:42.225 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 24.1046 ms
+2024-06-28 15:28:03.376 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 15:28:03.377 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 15:28:03.377 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 15:28:03.378 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 15:28:03.379 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 15:28:03.379 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 15:28:03.383 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 15:28:03.411 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 15:28:03.411 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 15:28:03.413 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 36.6879 ms
+2024-06-28 15:43:35.060 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 15:43:35.062 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 15:43:35.063 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 15:43:35.063 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 15:43:35.064 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 15:43:35.065 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 15:43:35.076 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 15:43:35.097 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 15:43:35.098 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 15:43:35.100 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 40.0580 ms
+2024-06-28 16:20:02.723 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 16:20:02.724 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 16:20:02.725 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 16:20:02.726 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 16:20:02.726 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 16:20:02.727 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 16:20:02.732 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 16:20:02.748 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 16:20:02.749 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 16:20:02.749 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 25.9274 ms
+2024-06-28 16:30:08.474 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 16:30:08.474 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 16:30:08.475 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 16:30:08.476 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 16:30:08.476 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 16:30:08.477 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 16:30:08.480 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 16:30:08.493 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 16:30:08.494 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 16:30:08.495 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 21.0891 ms
+2024-06-28 17:24:25.415 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 17:24:25.419 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 17:24:25.423 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 17:24:25.424 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 17:24:25.425 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 17:24:25.425 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 17:24:25.430 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 17:24:25.453 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 17:24:25.454 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 17:24:25.455 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 39.5295 ms
+2024-06-28 17:40:05.913 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 17:40:05.914 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 17:40:05.915 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 17:40:05.915 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 17:40:05.916 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 17:40:05.916 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 17:40:05.919 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 17:40:05.933 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 17:40:05.934 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 17:40:05.935 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 21.9864 ms
+2024-06-28 17:55:12.950 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 17:55:12.954 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 17:55:12.954 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 17:55:12.955 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 17:55:12.957 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 17:55:12.957 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 17:55:12.966 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 17:55:12.992 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 17:55:12.992 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 17:55:12.993 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 43.5274 ms
+2024-06-28 18:05:24.373 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 18:05:24.374 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 18:05:24.375 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 18:05:24.376 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 18:05:24.376 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 18:05:24.377 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 18:05:24.379 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 18:05:24.397 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 18:05:24.398 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 18:05:24.399 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 25.9162 ms
+2024-06-28 18:28:55.341 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 18:28:55.342 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 18:28:55.343 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 18:28:55.344 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 18:28:55.345 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 18:28:55.345 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 18:28:55.350 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 18:28:55.367 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 18:28:55.368 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 18:28:55.369 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 27.6321 ms
+2024-06-28 18:39:18.322 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 18:39:18.322 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 18:39:18.323 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 18:39:18.325 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 18:39:18.326 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 18:39:18.327 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 18:39:18.330 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 18:39:18.349 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 18:39:18.350 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 18:39:18.350 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.0063 ms
+2024-06-28 18:54:24.251 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 18:54:24.252 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 18:54:24.253 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 18:54:24.254 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 18:54:24.254 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 18:54:24.255 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 18:54:24.270 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 18:54:24.283 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 18:54:24.285 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 18:54:24.285 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 34.1119 ms
+2024-06-28 19:05:22.187 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 19:05:22.188 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 19:05:22.189 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 19:05:22.189 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 19:05:22.190 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:05:22.190 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 19:05:22.194 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:05:22.215 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:05:22.216 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 19:05:22.216 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.2671 ms
+2024-06-28 19:08:54.790 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 19:08:54.791 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 19:08:54.792 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 19:08:54.792 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 19:08:54.793 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:08:54.794 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 19:08:54.800 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:08:54.831 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:08:54.833 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 19:08:54.834 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 44.2364 ms
+2024-06-28 19:18:24.799 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:24.804 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_2 windturbine 1-E4
+2024-06-28 19:18:24.805 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:24.806 +02:00 [INF] [ModbusEngine] Startle PLAY_2 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '6'.
+2024-06-28 19:18:24.812 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:24.835 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:24.861 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 19:18:24.864 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:24.866 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 67.9584 ms
+2024-06-28 19:18:26.971 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:26.972 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 2 windturbine 1-E4
+2024-06-28 19:18:26.973 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:26.974 +02:00 [INF] [ModbusEngine] Startle STOP_2 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '6'.
+2024-06-28 19:18:26.976 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:26.989 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:26.998 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 19:18:26.998 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:26.999 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 28.0923 ms
+2024-06-28 19:18:27.525 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:27.527 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_1 windturbine 1-E4
+2024-06-28 19:18:27.528 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:27.530 +02:00 [INF] [ModbusEngine] Startle PLAY_1 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '7'.
+2024-06-28 19:18:27.534 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:27.550 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:27.574 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 19:18:27.574 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:27.576 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 50.8237 ms
+2024-06-28 19:18:30.791 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:30.794 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 1 windturbine 1-E4
+2024-06-28 19:18:30.795 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:30.795 +02:00 [INF] [ModbusEngine] Startle STOP_1 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '7'.
+2024-06-28 19:18:30.798 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:30.810 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:30.818 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 19:18:30.819 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:30.820 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 28.7721 ms
+2024-06-28 19:18:33.231 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:33.234 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_2 windturbine 1-E4
+2024-06-28 19:18:33.235 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:33.236 +02:00 [INF] [ModbusEngine] Startle PLAY_2 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '6'.
+2024-06-28 19:18:33.240 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:33.252 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:33.271 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 19:18:33.273 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:33.275 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 44.0086 ms
+2024-06-28 19:18:43.582 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:43.585 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 2 windturbine 1-E4
+2024-06-28 19:18:43.585 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:43.586 +02:00 [INF] [ModbusEngine] Startle STOP_2 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '6'.
+2024-06-28 19:18:43.590 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:43.603 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:43.608 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 19:18:43.608 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:43.610 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 27.6848 ms
+2024-06-28 19:18:47.039 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:47.042 +02:00 [INF] [ModbusStartleEngine] SinglePlay : send play to startle for PLAY_2 windturbine 1-E4
+2024-06-28 19:18:47.043 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:47.043 +02:00 [INF] [ModbusEngine] Startle PLAY_2 : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '6'.
+2024-06-28 19:18:47.051 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:47.065 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:47.086 +02:00 [INF] [ModbusStartleEngine] SinglePlay : done play to startle windturbine 1-E4
+2024-06-28 19:18:47.087 +02:00 [INF] [StartleController] Play : Received for wind turbine 1-E4 PLAY startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:47.088 +02:00 [INF] HTTP POST /Startle/Play responded 200 in 49.5396 ms
+2024-06-28 19:18:48.108 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 19:18:48.109 +02:00 [INF] [ModbusStartleEngine] SingleStop : send stop to startle for 2 windturbine 1-E4
+2024-06-28 19:18:48.110 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:18:48.110 +02:00 [INF] [ModbusEngine] Startle STOP_2 : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '6'.
+2024-06-28 19:18:48.114 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:18:48.138 +02:00 [INF] [ModbusEngine] Startle : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:18:48.148 +02:00 [INF] [ModbusStartleEngine] SingleStop : done stop to startle windturbine 1-E4
+2024-06-28 19:18:48.149 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 19:18:48.150 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 42.3166 ms
+2024-06-28 19:29:09.928 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 19:29:09.929 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 19:29:09.929 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 19:29:09.930 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 19:29:09.930 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:29:09.931 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 19:29:09.947 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:29:09.968 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:29:09.969 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 19:29:09.970 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 42.0679 ms
+2024-06-28 19:33:07.684 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 19:33:07.687 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 19:33:07.688 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 19:33:07.688 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 19:33:07.689 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:33:07.689 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 19:33:07.692 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:33:07.716 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:33:07.717 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 19:33:07.718 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 34.1162 ms
+2024-06-28 19:46:46.962 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 19:46:46.963 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 19:46:46.964 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 19:46:46.965 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 19:46:46.966 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:46:46.966 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 19:46:46.971 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:46:46.988 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:46:46.989 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 19:46:46.989 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 27.1297 ms
+2024-06-28 19:50:12.017 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 19:50:12.018 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 19:50:12.019 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 19:50:12.020 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 19:50:12.020 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 19:50:12.021 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 19:50:12.023 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 19:50:12.045 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 19:50:12.046 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 19:50:12.047 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.6989 ms
+2024-06-28 20:15:51.427 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 20:15:51.428 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 20:15:51.434 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 20:15:51.435 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 20:15:51.435 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 20:15:51.436 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 20:15:51.442 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 20:15:51.455 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 20:15:51.456 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 20:15:51.457 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 30.8879 ms
+2024-06-28 20:22:39.286 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 20:22:39.287 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 20:22:39.287 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 20:22:39.288 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 20:22:39.289 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 20:22:39.289 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 20:22:39.294 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 20:22:39.312 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 20:22:39.314 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 20:22:39.315 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 29.0922 ms
+2024-06-28 20:46:46.821 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 20:46:46.822 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 20:46:46.822 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 20:46:46.825 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 20:46:46.827 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 20:46:46.828 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 20:46:46.834 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 20:46:46.852 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 20:46:46.853 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 20:46:46.853 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 32.6084 ms
+2024-06-28 20:52:03.309 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE
+2024-06-28 20:52:03.315 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 20:52:03.316 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code PAUSE
+2024-06-28 20:52:03.318 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 20:52:03.319 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 20:52:03.319 +02:00 [INF] [ModbusEngine] Regulate PAUSE : Winturbine 1-E4, Value 'true' of type 'bool' is writing on Register '0'.
+2024-06-28 20:52:03.324 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 20:52:03.340 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 20:52:03.341 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : PAUSE DONE
+2024-06-28 20:52:03.342 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 33.1051 ms
+2024-06-28 21:02:24.595 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN
+2024-06-28 21:02:24.596 +02:00 [INF] [MuninRegulationClassic] Regulate : SessionName  
+2024-06-28 21:02:24.598 +02:00 [INF] [PauseTimer]Asking regulation for 1-E4 with code RUN
+2024-06-28 21:02:24.599 +02:00 [INF] [RegulationPauseTimerModule] IsTimerActive: There is no tiers active right now.
+2024-06-28 21:02:24.600 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 is writing.
+2024-06-28 21:02:24.601 +02:00 [INF] [ModbusEngine] Regulate RUN : Winturbine 1-E4, Value 'false' of type 'bool' is writing on Register '0'.
+2024-06-28 21:02:24.613 +02:00 [DBG] [ModbusEngine] CheckServerAvailable : Server available : True
+2024-06-28 21:02:24.641 +02:00 [INF] [ModbusEngine] Regulate : Winturbine 1-E4, Value with function code 5 has been written.
+2024-06-28 21:02:24.642 +02:00 [INF] [MuninController] Regulate : Received for wind turbine 1-E4 regulate value : RUN DONE
+2024-06-28 21:02:24.643 +02:00 [INF] HTTP POST /Munin/1-E4 responded 200 in 48.9355 ms
+2024-06-28 22:02:01.405 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32]
+2024-06-28 22:02:01.416 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 1
+2024-06-28 22:02:01.417 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 2
+2024-06-28 22:02:01.417 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 3
+2024-06-28 22:02:01.418 +02:00 [WRN] [ModbusStartleEngine] SingleStop: No startle to stop with id 4
+2024-06-28 22:02:01.419 +02:00 [INF] [StartleController] Stop : Received for wind turbine 1-E4 STOP startle for speakers : System.Collections.Generic.List`1[System.Int32] DONE
+2024-06-28 22:02:01.423 +02:00 [INF] HTTP POST /Startle/Stop responded 200 in 18.4647 ms
